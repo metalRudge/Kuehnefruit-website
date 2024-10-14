@@ -1,27 +1,13 @@
 // src/components/Navbar.jsx
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect, useContext} from 'react';
 import '../styles/Navbar.css'; // Import the corresponding styles
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { ViewportContext } from './MainContent';
 function NavigationBar()
 {
-  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
-  // Effect to handle resize
-  useEffect(() => {
-    const handleResize = () => {
-        setViewportWidth(window.innerWidth);
-    };
-
-    // Add event listener for resize
-    window.addEventListener('resize', handleResize);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-        window.removeEventListener('resize', handleResize);
-    };
-}, []);
-const maxWidth = viewportWidth > 1200 ? `${viewportWidth}` : '100%'; // Adjust as needed 
+  const { maxWidth } = useContext(ViewportContext);
   return (
-    <Navbar bg="light" expand="lg" className="custom-navbar" style={{width: '100%', maxWidth: viewportWidth}}>
+    <Navbar bg="light" expand="lg" className="custom-navbar" style={{maxWidth: `${maxWidth}px`,width: '100%',margin:'0 auto'}}>
       <Container>
         <Navbar.Brand href="#home" className="brand-name">KUEHNEFRUIT</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

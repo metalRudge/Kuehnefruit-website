@@ -1,0 +1,16 @@
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #333; /* Dark gray text color */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for a slight raised effect */
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 400;
+}
