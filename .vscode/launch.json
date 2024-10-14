@@ -20,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\src\\components\\navbar.jsx",
+            "program": "${workspaceFolder}\\App.jsx",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

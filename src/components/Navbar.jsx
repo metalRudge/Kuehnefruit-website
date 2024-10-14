@@ -2,7 +2,7 @@
 import React,{useState,useEffect} from 'react';
 import '../styles/Navbar.css'; // Import the corresponding styles
 import { Navbar, Nav, Container } from 'react-bootstrap';
-export function NavigationBar()
+function NavigationBar()
 {
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
   // Effect to handle resize
@@ -36,3 +36,5 @@ const maxWidth = viewportWidth > 1200 ? `${viewportWidth}` : '100%'; // Adjust a
     </Navbar>
   );
 };
+
+export default NavigationBar
