@@ -1,5 +1,5 @@
 // src/components/Navbar.jsx
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import '../styles/Footer.css';
 function Footer()
 {

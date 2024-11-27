@@ -1,0 +1,13 @@
+
+.text-content {
+    padding: 20px; /* Adds spacing to the text content */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+button {
+    margin-top: 10px;
+}

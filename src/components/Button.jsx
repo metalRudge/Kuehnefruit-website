@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
-import React,{useState,useEffect} from 'react';
-import '../styles/button.css';
+import React,{useState} from 'react';
+import '../styles/Button.css';
 function Button()
 {
   return (

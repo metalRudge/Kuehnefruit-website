@@ -1,0 +1,11 @@
+.text{
+  color: aqua;
+  text-decoration: double;
+  background-color: blue;
+}
+.input{
+  text-align: center;
+  background-color: #f8f9fa;
+  transform: 'translate(14px, -50px) scale(0.8)';
+  transition: 'all 0.3s ease';
+}
