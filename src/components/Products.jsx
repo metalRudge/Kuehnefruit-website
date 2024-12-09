@@ -1,7 +1,7 @@
 import React from 'react'
 import MainContent from './MainContent';
 
-function Contact(){
+function Products(){
     return (
         <div>
             <MainContent/>
@@ -9,4 +9,4 @@ function Contact(){
     );
 }
 
-export default Contact;
+export default Products;

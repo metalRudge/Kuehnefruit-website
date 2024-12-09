@@ -7,7 +7,6 @@ function About(){
         <div>
             <p>Ovo ce da bude ABOUT STRANICA </p>
         </div>
-        <Footer/>
         </>
     );
 }

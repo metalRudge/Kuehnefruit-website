@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Products from './components/Products';
 
 import './App.css';
+import Footer from './components/Footer';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <header className="App-header">
         <Navbar/>
       </header>
-      <main>
+      <main className='main'>
         <Router>
           <Routes>
             <Route path='/' element={<Products/>}/>
@@ -27,6 +28,7 @@ function App() {
           </Routes>
         </Router>
         </main>
+        <Footer/>
     </div>
   );
 }
