@@ -10,9 +10,9 @@ function NavigationBar()
   
   return (
       <Container className='min-vw-100'>
-      <Navbar bg="light" expand='md' className=" custom-navbar">
+      <Navbar bg="light" expand='md' className="custom-navbar">
       <Box display={'flex'} flexGrow={1}>
-        <Navbar.Brand href="#home" className="brand-name">KUEHNEFRUIT</Navbar.Brand>
+        <Navbar.Brand href="/contact" className="brand-name">KUEHNEFRUIT</Navbar.Brand>
         </Box>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='collapsed'/>
         <Navbar.Collapse id="basic-navbar-nav">
