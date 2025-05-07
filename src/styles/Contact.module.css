@@ -1,0 +1,14 @@
+.text{
+  color: aqua;
+  text-decoration: double;
+  background-color: blue;
+}
+#map{
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.form{
+  width: 100%;
+}
